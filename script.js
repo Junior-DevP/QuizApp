@@ -35,5 +35,4 @@ const quizDate = [{
     d: 'None of the above',
     correct: 'b'
 }
-
 ]
