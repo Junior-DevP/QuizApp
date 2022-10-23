@@ -12,8 +12,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+h2 {
+  margin: 0;
+}
 .quiz-header {
-  padding: 2rem;
+  padding: 4rem;
 }
 .quiz-container {
   background-color: #fff;
@@ -21,8 +24,28 @@ body {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+  overflow: hidden;
 }
 ul {
   list-style: none;
   padding: 0;
+}
+ul li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+button {
+  background-color: #8e44ad;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-family: inherit;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #732d91;
 }

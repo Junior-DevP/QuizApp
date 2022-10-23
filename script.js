@@ -36,3 +36,14 @@ const quizDate = [{
     correct: 'b'
 }
 ]
+
+let currentQuestion = 0
+loadQuiz()
+
+function loadQuiz(){
+
+
+
+    
+    currentQuestion++
+}
